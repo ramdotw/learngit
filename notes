@@ -6,5 +6,11 @@ git help config
 alias npp=notepad++.exe multiInst -nosession'
 
 
+Local - working directory      --> ADD -- staging area
+        staging area           --> COMMIT -- repository .git folder 
+        repository .git folder --> PUSH --   Remote - Git hub repository
+Master Branch, Feauture Branch
+server default name - Origin
+
 
 
