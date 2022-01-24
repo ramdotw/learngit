@@ -6,11 +6,18 @@ git help config
 alias npp=notepad++.exe multiInst -nosession'
 
 
-Local - working directory      --> ADD -- staging area
-        staging area           --> COMMIT -- repository .git folder 
-        repository .git folder --> PUSH --   Remote - Git hub repository
+Local - working directory      --> ADD -- staging area --> git add home.html
+        staging area           --> COMMIT -- repository .git folder  --> git commit -m "Fixed two tasks"
+        repository .git folder --> PUSH --   Remote - Git hub repository --> git push origin master
 Master Branch, Feauture Branch
 server default name - Origin
 
+git clone https://github.com/ramdotw/learngit.git
+ls -al -- show hidden files like .git
+
+git status
+git clone reponame ourname without /
+
+rm -rf sample-project/
 
 
